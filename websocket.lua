@@ -331,7 +331,7 @@ function ws:recv_frame()
             self.handler.on_pong(self, frame_data)
         end
 
-        return true, true, nil
+        return true, true, ""
     end
 
 end
